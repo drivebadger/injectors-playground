@@ -27,7 +27,7 @@ You are responsible to implement additional conditions checking, which exact fil
 3. Specific only to:
 
 - filesystem type (eg. [`ntfs`](ntfs/injector.sh), [`ext4`](ext4/injector.sh))
-- encryption type (eg. `luks`, [`bitlocker`](bitlocker/injector.sh), [`veracrypt`](veracrypt/injector.sh))
+- encryption type (eg. [`luks`](luks/injector.sh), [`bitlocker`](bitlocker/injector.sh), [`veracrypt`](veracrypt/injector.sh))
 - network share type ([`nfs`](nfs/injector.sh), [`cifs`](cifs/injector.sh))
 
 these injectors will be executed against **all** partitions and shares of given type.
